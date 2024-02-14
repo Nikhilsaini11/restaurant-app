@@ -27,8 +27,8 @@ To run the project locally, follow these steps:
     Start the JSON server to serve restaurant data:
     ```bash
     npm install # Install dependencies (if not already installed)
-    npm start
-    The JSON server will start running at http://localhost:3000.
+    npm start  
+The JSON server will start running at http://localhost:3000.
 
 4. Open another terminal and navigate to the restaurant-app directory:
     Open another terminal (keeping the JSON server running) and navigate to the restaurant-app directory:
@@ -40,7 +40,7 @@ To run the project locally, follow these steps:
     ```bash
     npm install # Install dependencies (if not already installed)
     npm start
-    The Angular server will start running at http://localhost:4200.
+The Angular server will start running at http://localhost:4200.
 
 6. Access the application:
     Open your web browser and navigate to http://localhost:4200 to access the Restaurant App.
