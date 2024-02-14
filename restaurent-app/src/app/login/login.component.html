@@ -1,0 +1,20 @@
+<div class="container shadow card m-auto w-25 mt-5 pb-3">
+    <h1 class="text-center my-3">Login</h1>
+    <!-- <div *ngIf="alert"  class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> User Registered.
+        <button type="button" class="btn-close" (click)="closeAlert()" aria-label="Close"></button>
+    </div> -->
+    <form [formGroup]="loginUser" (ngSubmit)="logUser()">
+       
+        <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" formControlName="Email">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter Password" formControlName="Password">
+        </div>
+        <button type="submit" class="btn my-3 btn-outline-dark">Login</button><br>
+        <a routerLink="/register" style="color: black;">Not Registered? Click here to Register!</a>
+      </form>
+</div>

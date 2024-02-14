@@ -1,0 +1,60 @@
+{
+  "resto": [
+    {
+      "Name": "A Restaurent",
+      "Phone": "854125395871581555454",
+      "Address": "Delhi",
+      "id": 1
+    },
+    {
+      "Name": "B Restaurent",
+      "Phone": "8541253984",
+      "Address": "Noida",
+      "id": 2
+    },
+    {
+      "Name": "C Restaurent",
+      "Phone": "8541253984",
+      "Address": "Noida",
+      "id": 3
+    },
+    {
+      "Name": "D Restaurent",
+      "Phone": "4582100100",
+      "Address": "Ghaziabad",
+      "id": 4
+    },
+    {
+      "Name": "New REst",
+      "Phone": "8541253984",
+      "Address": "abc@email.com",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "Name": "Guest",
+      "Password": "guest",
+      "Email": "guest@test.com",
+      "id": 1
+    },
+    {
+      "Name": "Guest2",
+      "Password": "guest",
+      "Email": "guest2@test.com",
+      "id": 2
+    },
+    {
+      "Name": "Guest3",
+      "Password": "guest",
+      "Email": "guest3@test.com",
+      "id": 3
+    },
+    {
+      "Name": "New Guest",
+      "Password": "newguest",
+      "Email": "newguest@test.com",
+      "id": 4
+    }
+  ]
+}

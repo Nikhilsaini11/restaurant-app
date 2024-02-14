@@ -1,0 +1,24 @@
+<div class="container card shadow m-auto w-25 mt-5 pb-3">
+    <h1 class="text-center my-3">Register</h1>
+    <div *ngIf="alert"  class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> User Registered.&nbsp;<a routerLink="/login">Click here to Login!</a>
+        <button type="button" class="btn-close" (click)="closeAlert()" aria-label="Close"></button>
+    </div>
+    <form [formGroup]="createUser" (ngSubmit)="regUser()">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter Name" formControlName="Name">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter Password" formControlName="Password">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter Email" formControlName="Email">
+        </div>
+        <button type="submit" class="btn my-3 btn-outline-dark">Submit</button><br>
+        <a routerLink="/login" style="color: black;">Already Registered? Click here to Login!</a>
+
+      </form>
+</div>
